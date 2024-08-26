@@ -1,0 +1,227 @@
+.html{
+    height:100%
+}
+.body{
+    font-family: sans-serif;
+    margin:0%;
+    padding:0%;
+    height: 100%;
+}
+.body-home{
+    background-image: url('images/black 01.jpg');
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body-starters{
+    background-image: url('images/kithen-04.jpg');
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body-menu{
+    background-image: url('images/gray-01.png');
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ /*==============HEADER===============*/
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:gray;
+    overflow:hidden;
+    margin-top: -12px;
+  
+}
+.header i{
+    float: left;
+    color: #ffffff;
+    font-size:23px;
+    padding:17px 10px 10px 17px;
+    font-size:22px;
+}
+.header h1{
+    text-align: center;
+    font-size:23px;
+    color: #ffffff;
+    padding-bottom:20px;
+    width: 100%;
+}
+
+
+/*==============HOME PAGE===============*/
+
+#home-logo-img{
+    display:block;
+    margin: auto;
+    padding-top:30px;
+    width:20%;
+}
+#home h1{
+    color:#ffffff;
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+}
+#home p{
+    color:#ffffff;
+    font-size:35px;
+    padding: 10px;
+}
+      
+
+/*=====HOME PAGE MENU=====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+    border:5px solid #ffffff;
+    display: block;
+    margin: auto;
+    margin-bottom:10px;
+    width:80%;
+    border-top:10px;
+}
+/*============== starters PAGE===============*/
+#starters{
+    padding-top: 30px;
+}
+
+
+/*=====STARTERS PAGE MENU=====*/
+
+.starters-list-items{
+    border: 5px solid #ffffff;
+    margin: 10px;
+}
+.starters-list-items h1{
+    font-weight: bold;
+    font-size:28px;
+    color:#ffffff;
+    padding-left: 10px;
+    
+}
+.starters-list-items i{
+    float:right;
+    color:#ffffff;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.starters-list-items p{
+    font-size: 27px;
+    font-style: italic;
+    margin-top: -7px;
+    color: #ffffff;
+    padding-left: 10px;
+   
+}    
+/*============MENU PAGE=============*/
+#menu{
+    padding: 30px;
+    
+}
+
+
+/*=====Menu-details =====*/
+.menu-details img{
+    width: 100%;
+    margin: auto;
+}
+
+.menu-details-info h1{
+    text-align: center;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+}
+.menu-details-info h2{
+    padding-left: 30px;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 32px;
+}
+.menu-details-info p{
+    font-size:24px;
+    margin: 0;
+    color: #ffffff;
+    padding-left:30px;
+   
+}
+.menu-details-info label{
+    color: #ffffffff;
+    font-size:24px;
+  
+}
+
+
+.menu-details-info a input{
+    float: right;
+}
+     
+.menu-details-info h3{
+    text-align: center;
+    color: #ffffff;
+}
+
+/*============RESPONSIVE LAYOUT=============*/
+@media only screen and(min-width:600px){
+    #starters{
+        width:80%;
+        margin:auto;
+    }
+    
+    #menu{
+        width:80%;
+        margin:auto:
+    }
+       
+    
+}
+
+@media only screen and (min-width:1000px){
+    #starters{
+        width:60%;
+        margin:auto;
+    }
+     #menu{
+         width:60%;
+         margin:auto;
+    }
+}
+      
+@media only screen and (min-width:1500px){
+    #starters{
+        width:40%;
+        margin:auto:
+    } 
+    #menu{
+        width:40%;
+        margin:auto;
+    }
+}
+         
+    
+ 
+
+  
+
+
+
+
+  
+
+
+
+
+  
